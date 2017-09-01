@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageSelectedName</key>
+		<string>oil_station_selected</string>
+		<key>imageName</key>
+		<string>oil_station</string>
+		<key>title</key>
+		<string>加油站</string>
+		<key>keywords</key>
+		<string>加油站</string>
+	</dict>
+	<dict>
+		<key>imageSelectedName</key>
+		<string>superMarket_selected</string>
+		<key>imageName</key>
+		<string>superMarket</string>
+		<key>title</key>
+		<string>超市</string>
+		<key>keywords</key>
+		<string>超市|购物中心</string>
+	</dict>
+	<dict>
+		<key>imageSelectedName</key>
+		<string>restaurant_selected</string>
+		<key>imageName</key>
+		<string>restaurant</string>
+		<key>title</key>
+		<string>餐厅</string>
+		<key>keywords</key>
+		<string>餐厅|吃饭</string>
+	</dict>
+	<dict>
+		<key>imageSelectedName</key>
+		<string>build_body_selected</string>
+		<key>imageName</key>
+		<string>build_body</string>
+		<key>title</key>
+		<string>健身房</string>
+		<key>keywords</key>
+		<string>健身房|游泳馆|健身</string>
+	</dict>
+	<dict>
+		<key>imageSelectedName</key>
+		<string>4s_store_selected</string>
+		<key>imageName</key>
+		<string>4s_store</string>
+		<key>title</key>
+		<string>4s店</string>
+		<key>keywords</key>
+		<string>4s</string>
+	</dict>
+	<dict>
+		<key>imageSelectedName</key>
+		<string>wash_car_room_selected</string>
+		<key>imageName</key>
+		<string>wash_car_room</string>
+		<key>title</key>
+		<string>洗车房</string>
+		<key>keywords</key>
+		<string>洗车</string>
+	</dict>
+</array>
+</plist>

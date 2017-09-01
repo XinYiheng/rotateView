@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8BA1E91F593C2B0075FF30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA1E81F593C2B0075FF30 /* main.m */; };
+		AE8BA1EC1F593C2B0075FF30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA1EB1F593C2B0075FF30 /* AppDelegate.m */; };
+		AE8BA1EF1F593C2B0075FF30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA1EE1F593C2B0075FF30 /* ViewController.m */; };
+		AE8BA1F21F593C2B0075FF30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8BA1F01F593C2B0075FF30 /* Main.storyboard */; };
+		AE8BA1F41F593C2B0075FF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8BA1F31F593C2B0075FF30 /* Assets.xcassets */; };
+		AE8BA1F71F593C2B0075FF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8BA1F51F593C2B0075FF30 /* LaunchScreen.storyboard */; };
+		AE8BA2021F593C2B0075FF30 /* RotateViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA2011F593C2B0075FF30 /* RotateViewTests.m */; };
+		AE8BA20D1F593C2B0075FF30 /* RotateViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA20C1F593C2B0075FF30 /* RotateViewUITests.m */; };
+		AE8BA2221F593C870075FF30 /* EUKaRotateBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA21C1F593C870075FF30 /* EUKaRotateBtn.m */; };
+		AE8BA2231F593C870075FF30 /* EUKaRotateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA21E1F593C870075FF30 /* EUKaRotateModel.m */; };
+		AE8BA2241F593C870075FF30 /* EUKaRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8BA2201F593C870075FF30 /* EUKaRotateView.m */; };
+		AE8BA2251F593C870075FF30 /* EUkaRoundList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE8BA2211F593C870075FF30 /* EUkaRoundList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8BA1FE1F593C2B0075FF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8BA1DC1F593C2B0075FF30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8BA1E31F593C2B0075FF30;
+			remoteInfo = RotateView;
+		};
+		AE8BA2091F593C2B0075FF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8BA1DC1F593C2B0075FF30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8BA1E31F593C2B0075FF30;
+			remoteInfo = RotateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE8BA1E41F593C2B0075FF30 /* RotateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BA1E81F593C2B0075FF30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE8BA1EA1F593C2B0075FF30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE8BA1EB1F593C2B0075FF30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE8BA1ED1F593C2B0075FF30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE8BA1EE1F593C2B0075FF30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE8BA1F11F593C2B0075FF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE8BA1F31F593C2B0075FF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE8BA1F61F593C2B0075FF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE8BA1F81F593C2B0075FF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8BA1FD1F593C2B0075FF30 /* RotateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BA2011F593C2B0075FF30 /* RotateViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewTests.m; sourceTree = "<group>"; };
+		AE8BA2031F593C2B0075FF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8BA2081F593C2B0075FF30 /* RotateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8BA20C1F593C2B0075FF30 /* RotateViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateViewUITests.m; sourceTree = "<group>"; };
+		AE8BA20E1F593C2B0075FF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8BA21B1F593C870075FF30 /* EUKaRotateBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUKaRotateBtn.h; sourceTree = "<group>"; };
+		AE8BA21C1F593C870075FF30 /* EUKaRotateBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUKaRotateBtn.m; sourceTree = "<group>"; };
+		AE8BA21D1F593C870075FF30 /* EUKaRotateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUKaRotateModel.h; sourceTree = "<group>"; };
+		AE8BA21E1F593C870075FF30 /* EUKaRotateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUKaRotateModel.m; sourceTree = "<group>"; };
+		AE8BA21F1F593C870075FF30 /* EUKaRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUKaRotateView.h; sourceTree = "<group>"; };
+		AE8BA2201F593C870075FF30 /* EUKaRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUKaRotateView.m; sourceTree = "<group>"; };
+		AE8BA2211F593C870075FF30 /* EUkaRoundList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EUkaRoundList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8BA1E11F593C2B0075FF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BA1FA1F593C2B0075FF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BA2051F593C2B0075FF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8BA1DB1F593C2B0075FF30 = {
+			isa = PBXGroup;
+			children = (
+				AE8BA1E61F593C2B0075FF30 /* RotateView */,
+				AE8BA2001F593C2B0075FF30 /* RotateViewTests */,
+				AE8BA20B1F593C2B0075FF30 /* RotateViewUITests */,
+				AE8BA1E51F593C2B0075FF30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8BA1E51F593C2B0075FF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BA1E41F593C2B0075FF30 /* RotateView.app */,
+				AE8BA1FD1F593C2B0075FF30 /* RotateViewTests.xctest */,
+				AE8BA2081F593C2B0075FF30 /* RotateViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8BA1E61F593C2B0075FF30 /* RotateView */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BA21A1F593C740075FF30 /* rotate */,
+				AE8BA1EA1F593C2B0075FF30 /* AppDelegate.h */,
+				AE8BA1EB1F593C2B0075FF30 /* AppDelegate.m */,
+				AE8BA1ED1F593C2B0075FF30 /* ViewController.h */,
+				AE8BA1EE1F593C2B0075FF30 /* ViewController.m */,
+				AE8BA1F01F593C2B0075FF30 /* Main.storyboard */,
+				AE8BA1F31F593C2B0075FF30 /* Assets.xcassets */,
+				AE8BA1F51F593C2B0075FF30 /* LaunchScreen.storyboard */,
+				AE8BA1F81F593C2B0075FF30 /* Info.plist */,
+				AE8BA1E71F593C2B0075FF30 /* Supporting Files */,
+			);
+			path = RotateView;
+			sourceTree = "<group>";
+		};
+		AE8BA1E71F593C2B0075FF30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BA1E81F593C2B0075FF30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE8BA2001F593C2B0075FF30 /* RotateViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BA2011F593C2B0075FF30 /* RotateViewTests.m */,
+				AE8BA2031F593C2B0075FF30 /* Info.plist */,
+			);
+			path = RotateViewTests;
+			sourceTree = "<group>";
+		};
+		AE8BA20B1F593C2B0075FF30 /* RotateViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BA20C1F593C2B0075FF30 /* RotateViewUITests.m */,
+				AE8BA20E1F593C2B0075FF30 /* Info.plist */,
+			);
+			path = RotateViewUITests;
+			sourceTree = "<group>";
+		};
+		AE8BA21A1F593C740075FF30 /* rotate */ = {
+			isa = PBXGroup;
+			children = (
+				AE8BA21B1F593C870075FF30 /* EUKaRotateBtn.h */,
+				AE8BA21C1F593C870075FF30 /* EUKaRotateBtn.m */,
+				AE8BA21D1F593C870075FF30 /* EUKaRotateModel.h */,
+				AE8BA21E1F593C870075FF30 /* EUKaRotateModel.m */,
+				AE8BA21F1F593C870075FF30 /* EUKaRotateView.h */,
+				AE8BA2201F593C870075FF30 /* EUKaRotateView.m */,
+				AE8BA2211F593C870075FF30 /* EUkaRoundList.plist */,
+			);
+			name = rotate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8BA1E31F593C2B0075FF30 /* RotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BA2111F593C2B0075FF30 /* Build configuration list for PBXNativeTarget "RotateView" */;
+			buildPhases = (
+				AE8BA1E01F593C2B0075FF30 /* Sources */,
+				AE8BA1E11F593C2B0075FF30 /* Frameworks */,
+				AE8BA1E21F593C2B0075FF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateView;
+			productName = RotateView;
+			productReference = AE8BA1E41F593C2B0075FF30 /* RotateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE8BA1FC1F593C2B0075FF30 /* RotateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BA2141F593C2B0075FF30 /* Build configuration list for PBXNativeTarget "RotateViewTests" */;
+			buildPhases = (
+				AE8BA1F91F593C2B0075FF30 /* Sources */,
+				AE8BA1FA1F593C2B0075FF30 /* Frameworks */,
+				AE8BA1FB1F593C2B0075FF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8BA1FF1F593C2B0075FF30 /* PBXTargetDependency */,
+			);
+			name = RotateViewTests;
+			productName = RotateViewTests;
+			productReference = AE8BA1FD1F593C2B0075FF30 /* RotateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE8BA2071F593C2B0075FF30 /* RotateViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BA2171F593C2B0075FF30 /* Build configuration list for PBXNativeTarget "RotateViewUITests" */;
+			buildPhases = (
+				AE8BA2041F593C2B0075FF30 /* Sources */,
+				AE8BA2051F593C2B0075FF30 /* Frameworks */,
+				AE8BA2061F593C2B0075FF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8BA20A1F593C2B0075FF30 /* PBXTargetDependency */,
+			);
+			name = RotateViewUITests;
+			productName = RotateViewUITests;
+			productReference = AE8BA2081F593C2B0075FF30 /* RotateViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8BA1DC1F593C2B0075FF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Boat;
+				TargetAttributes = {
+					AE8BA1E31F593C2B0075FF30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AE8BA1FC1F593C2B0075FF30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE8BA1E31F593C2B0075FF30;
+					};
+					AE8BA2071F593C2B0075FF30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE8BA1E31F593C2B0075FF30;
+					};
+				};
+			};
+			buildConfigurationList = AE8BA1DF1F593C2B0075FF30 /* Build configuration list for PBXProject "RotateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8BA1DB1F593C2B0075FF30;
+			productRefGroup = AE8BA1E51F593C2B0075FF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8BA1E31F593C2B0075FF30 /* RotateView */,
+				AE8BA1FC1F593C2B0075FF30 /* RotateViewTests */,
+				AE8BA2071F593C2B0075FF30 /* RotateViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8BA1E21F593C2B0075FF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BA1F71F593C2B0075FF30 /* LaunchScreen.storyboard in Resources */,
+				AE8BA1F41F593C2B0075FF30 /* Assets.xcassets in Resources */,
+				AE8BA1F21F593C2B0075FF30 /* Main.storyboard in Resources */,
+				AE8BA2251F593C870075FF30 /* EUkaRoundList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BA1FB1F593C2B0075FF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BA2061F593C2B0075FF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8BA1E01F593C2B0075FF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BA1EF1F593C2B0075FF30 /* ViewController.m in Sources */,
+				AE8BA2241F593C870075FF30 /* EUKaRotateView.m in Sources */,
+				AE8BA1EC1F593C2B0075FF30 /* AppDelegate.m in Sources */,
+				AE8BA1E91F593C2B0075FF30 /* main.m in Sources */,
+				AE8BA2221F593C870075FF30 /* EUKaRotateBtn.m in Sources */,
+				AE8BA2231F593C870075FF30 /* EUKaRotateModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BA1F91F593C2B0075FF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BA2021F593C2B0075FF30 /* RotateViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8BA2041F593C2B0075FF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BA20D1F593C2B0075FF30 /* RotateViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE8BA1FF1F593C2B0075FF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8BA1E31F593C2B0075FF30 /* RotateView */;
+			targetProxy = AE8BA1FE1F593C2B0075FF30 /* PBXContainerItemProxy */;
+		};
+		AE8BA20A1F593C2B0075FF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8BA1E31F593C2B0075FF30 /* RotateView */;
+			targetProxy = AE8BA2091F593C2B0075FF30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE8BA1F01F593C2B0075FF30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8BA1F11F593C2B0075FF30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE8BA1F51F593C2B0075FF30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8BA1F61F593C2B0075FF30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE8BA20F1F593C2B0075FF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE8BA2101F593C2B0075FF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE8BA2121F593C2B0075FF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.RotateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE8BA2131F593C2B0075FF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.RotateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE8BA2151F593C2B0075FF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RotateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.RotateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateView.app/RotateView";
+			};
+			name = Debug;
+		};
+		AE8BA2161F593C2B0075FF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RotateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.RotateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateView.app/RotateView";
+			};
+			name = Release;
+		};
+		AE8BA2181F593C2B0075FF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RotateViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.RotateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RotateView;
+			};
+			name = Debug;
+		};
+		AE8BA2191F593C2B0075FF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RotateViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boat.com.RotateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RotateView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8BA1DF1F593C2B0075FF30 /* Build configuration list for PBXProject "RotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BA20F1F593C2B0075FF30 /* Debug */,
+				AE8BA2101F593C2B0075FF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8BA2111F593C2B0075FF30 /* Build configuration list for PBXNativeTarget "RotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BA2121F593C2B0075FF30 /* Debug */,
+				AE8BA2131F593C2B0075FF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE8BA2141F593C2B0075FF30 /* Build configuration list for PBXNativeTarget "RotateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BA2151F593C2B0075FF30 /* Debug */,
+				AE8BA2161F593C2B0075FF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE8BA2171F593C2B0075FF30 /* Build configuration list for PBXNativeTarget "RotateViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8BA2181F593C2B0075FF30 /* Debug */,
+				AE8BA2191F593C2B0075FF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8BA1DC1F593C2B0075FF30 /* Project object */;
+}
